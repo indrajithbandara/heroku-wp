@@ -8,7 +8,8 @@
         "wpackagist-plugin/jetpack": "~4",
         "wpackagist-plugin/wpro": "~1",
         "wpackagist-plugin/sendgrid-email-delivery-simplified": "~1",
-        "wpackagist-plugin/authy-two-factor-authentication": "~2"
+        "wpackagist-plugin/authy-two-factor-authentication": "~2",
+        "wpackagist-plugin": "~1.5"
     },
     "repositories": [
         {
