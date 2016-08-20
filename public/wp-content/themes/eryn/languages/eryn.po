@@ -1,0 +1,748 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Eryn\n"
+"POT-Creation-Date: 2015-06-18 10:22-0000\n"
+"PO-Revision-Date: 2015-06-18 10:22-0000\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.7.3\n"
+"X-Poedit-Basepath: .\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-KeywordsList: _;__;_e\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPath-1: ..\n"
+"X-Poedit-SearchPath-2: .\n"
+"X-Poedit-SearchPath-3: ./.\n"
+
+#: ../404.php:15
+msgid "Oops! That page can&rsquo;t be found."
+msgstr ""
+
+#: ../404.php:19
+msgid ""
+"It looks like nothing was found at this location. Maybe try one of the links "
+"below or a search?"
+msgstr ""
+
+#: ../404.php:27
+msgid "Most Used Categories"
+msgstr ""
+
+#. translators: %1$s: smiley
+#: ../404.php:44
+#, php-format
+msgid "Try looking in the monthly archives. %1$s"
+msgstr ""
+
+#: ../archive.php:24
+#, php-format
+msgid "Day: %s"
+msgstr ""
+
+#: ../archive.php:27
+#, php-format
+msgid "Month: %s"
+msgstr ""
+
+#: ../archive.php:30
+#, php-format
+msgid "Year: %s"
+msgstr ""
+
+#: ../archive.php:33
+msgid "Asides"
+msgstr ""
+
+#: ../archive.php:36
+msgid "Galleries"
+msgstr ""
+
+#: ../archive.php:39
+msgid "Images"
+msgstr ""
+
+#: ../archive.php:42
+msgid "Videos"
+msgstr ""
+
+#: ../archive.php:45
+msgid "Quotes"
+msgstr ""
+
+#: ../archive.php:48
+msgid "Links"
+msgstr ""
+
+#: ../archive.php:51
+msgid "Statuses"
+msgstr ""
+
+#: ../archive.php:54
+msgid "Audios"
+msgstr ""
+
+#: ../archive.php:57
+msgid "Chats"
+msgstr ""
+
+#: ../archive.php:60
+msgid "Archives"
+msgstr ""
+
+#: ../comments.php:36 ../comments.php:53
+msgid "Comment navigation"
+msgstr ""
+
+#: ../comments.php:37 ../comments.php:54
+msgid "&larr; Older Comments"
+msgstr ""
+
+#: ../comments.php:38 ../comments.php:55
+msgid "Newer Comments &rarr;"
+msgstr ""
+
+#: ../comments.php:65
+msgid "Comments are closed."
+msgstr ""
+
+#: ../content-home.php:33 ../content.php:34
+msgid "0 Comments"
+msgstr ""
+
+#: ../content-home.php:33 ../content.php:34 ../inc/template-tags.php:134
+msgid "1 Comment"
+msgstr ""
+
+#: ../content-home.php:33 ../content.php:34 ../inc/template-tags.php:134
+msgid "% Comments"
+msgstr ""
+
+#: ../content-home.php:38
+msgid "Featured"
+msgstr ""
+
+#: ../content-home.php:54 ../content.php:86
+msgid "Read More"
+msgstr ""
+
+#: ../content-home.php:72
+#, php-format
+msgid "<div class=\"read-more\"> Continue reading... %s</div>"
+msgstr ""
+
+#: ../content-none.php:7
+msgid "Sorry no results"
+msgstr ""
+
+#: ../content-none.php:8
+msgid "Try changing your search criteria"
+msgstr ""
+
+#: ../content-none.php:27
+msgid "Recent posts"
+msgstr ""
+
+#: ../content-page.php:37
+msgid "Pages:"
+msgstr ""
+
+#: ../content-page.php:44 ../content.php:111 ../inc/template-tags.php:138
+msgid "Edit"
+msgstr ""
+
+#: ../content.php:104
+#, php-format
+msgid "<div class=\"read-more\"> Continue reading %s </div>"
+msgstr ""
+
+#: ../footer.php:51
+#, php-format
+msgid "<p><a href=\"%1$s\">Eryn - Theme developed by %2$s &copy %3$d</a></p>"
+msgstr ""
+
+#: ../functions.php:48
+msgid "Primary Menu"
+msgstr ""
+
+#: ../functions.php:101
+msgid "Footer 1"
+msgstr ""
+
+#: ../functions.php:103 ../functions.php:112
+msgid "One of two widget areas that will apear at the bottom of the site."
+msgstr ""
+
+#: ../functions.php:110
+msgid "Footer 2"
+msgstr ""
+
+#: ../functions.php:119
+msgid "Navigation Panel"
+msgstr ""
+
+#: ../functions.php:121
+msgid ""
+"Widget area within the navigation panel that will display below the site "
+"primary menu."
+msgstr ""
+
+#: ../functions.php:128
+msgid "Search Panel"
+msgstr ""
+
+#: ../functions.php:130
+msgid ""
+"Widget area within the search panel that will display below the site search "
+"form."
+msgstr ""
+
+#: ../functions.php:195 ../functions.php:198 ../functions.php:208
+#: ../functions.php:211
+#, php-format
+msgid "View all posts in %s"
+msgstr ""
+
+#: ../functions/customizer_settings.php:36
+msgid "Check out Pro Version"
+msgstr ""
+
+#: ../functions/customizer_settings.php:56
+msgid "Twitter url"
+msgstr ""
+
+#: ../functions/customizer_settings.php:57
+msgid "Facebook url"
+msgstr ""
+
+#: ../functions/customizer_settings.php:58
+msgid "Google + url"
+msgstr ""
+
+#: ../functions/customizer_settings.php:59
+msgid "LinkedIn url"
+msgstr ""
+
+#: ../functions/customizer_settings.php:60
+msgid "Flickr url"
+msgstr ""
+
+#: ../functions/customizer_settings.php:61
+msgid "Pinterest url"
+msgstr ""
+
+#: ../functions/customizer_settings.php:62
+msgid "YouTube url"
+msgstr ""
+
+#: ../functions/customizer_settings.php:63
+msgid "Vimeo url"
+msgstr ""
+
+#: ../functions/customizer_settings.php:64
+msgid "Tumblr url"
+msgstr ""
+
+#: ../functions/customizer_settings.php:65
+msgid "Dribbble url"
+msgstr ""
+
+#: ../functions/customizer_settings.php:66
+msgid "Github url"
+msgstr ""
+
+#: ../functions/customizer_settings.php:67
+msgid "Instagram url"
+msgstr ""
+
+#: ../functions/customizer_settings.php:71
+msgid "Hide Categories"
+msgstr ""
+
+#: ../functions/customizer_settings.php:72
+msgid "Hide Date"
+msgstr ""
+
+#: ../functions/customizer_settings.php:73
+msgid "Hide Comment Count"
+msgstr ""
+
+#: ../functions/customizer_settings.php:74
+msgid "Hide Author"
+msgstr ""
+
+#: ../functions/customizer_settings.php:75
+msgid "Hide Featured Pin"
+msgstr ""
+
+#: ../functions/customizer_settings.php:79
+msgid "Title Color"
+msgstr ""
+
+#: ../functions/customizer_settings.php:80
+msgid "Tagline Color"
+msgstr ""
+
+#: ../functions/customizer_settings.php:81
+msgid "Title & Tagline Hover Color"
+msgstr ""
+
+#: ../functions/customizer_settings.php:84
+msgid "Background color"
+msgstr ""
+
+#: ../functions/customizer_settings.php:85
+msgid "Text color"
+msgstr ""
+
+#: ../functions/customizer_settings.php:86
+msgid "Link color"
+msgstr ""
+
+#: ../functions/customizer_settings.php:87
+msgid "link Hover Color"
+msgstr ""
+
+#: ../functions/customizer_settings.php:90
+msgid "Text Color"
+msgstr ""
+
+#: ../functions/customizer_settings.php:91
+msgid "Link Color"
+msgstr ""
+
+#: ../functions/customizer_settings.php:92
+msgid "Link Hover Color"
+msgstr ""
+
+#: ../functions/customizer_settings.php:96
+msgid "Footer Background Color"
+msgstr ""
+
+#: ../functions/customizer_settings.php:97
+msgid "Footer Text Color"
+msgstr ""
+
+#: ../functions/customizer_settings.php:98
+msgid "Footer Link Color"
+msgstr ""
+
+#: ../functions/customizer_settings.php:99
+msgid "Footer Link Hover Color"
+msgstr ""
+
+#: ../functions/customizer_settings.php:103
+msgid "Hide Widget Area"
+msgstr ""
+
+#: ../functions/customizer_settings.php:104
+#: ../functions/customizer_settings.php:978
+msgid "Hide Copyright Bar"
+msgstr ""
+
+#: ../functions/customizer_settings.php:123
+msgid "Thin"
+msgstr ""
+
+#: ../functions/customizer_settings.php:124
+msgid "Light"
+msgstr ""
+
+#: ../functions/customizer_settings.php:125
+msgid "Regular"
+msgstr ""
+
+#: ../functions/customizer_settings.php:126
+msgid "Semi-Bold"
+msgstr ""
+
+#: ../functions/customizer_settings.php:127
+msgid "Bold"
+msgstr ""
+
+#: ../functions/customizer_settings.php:128
+msgid "Extra Bold"
+msgstr ""
+
+#: ../functions/customizer_settings.php:131
+msgid "Small"
+msgstr ""
+
+#: ../functions/customizer_settings.php:132
+msgid "Medium"
+msgstr ""
+
+#: ../functions/customizer_settings.php:133
+msgid "Large"
+msgstr ""
+
+#: ../functions/customizer_settings.php:134
+msgid "Extra Large"
+msgstr ""
+
+#: ../functions/customizer_settings.php:135
+msgid "XX Large"
+msgstr ""
+
+#: ../functions/customizer_settings.php:136
+msgid "Massive"
+msgstr ""
+
+#: ../functions/customizer_settings.php:139
+msgid "Fonts - Site Title"
+msgstr ""
+
+#: ../functions/customizer_settings.php:140
+msgid "Fonts - Body Text"
+msgstr ""
+
+#: ../functions/customizer_settings.php:141
+msgid "Fonts - Headers"
+msgstr ""
+
+#: ../functions/customizer_settings.php:153
+msgid "Site Settings"
+msgstr ""
+
+#: ../functions/customizer_settings.php:157
+msgid "Global Settings"
+msgstr ""
+
+#: ../functions/customizer_settings.php:161
+msgid "Homepage Settings"
+msgstr ""
+
+#: ../functions/customizer_settings.php:165
+msgid "Footer Settings"
+msgstr ""
+
+#: ../functions/customizer_settings.php:170
+msgid "Post &amp; Page Settings"
+msgstr ""
+
+#: ../functions/customizer_settings.php:175
+msgid "Color &amp; Fonts"
+msgstr ""
+
+#: ../functions/customizer_settings.php:185
+msgid "Large Sidebar Image"
+msgstr ""
+
+#: ../functions/customizer_settings.php:186
+msgid ""
+"Replace default sidebar image. This image will be replaced by any featured "
+"image on posts or pages."
+msgstr ""
+
+#: ../functions/customizer_settings.php:191
+msgid "Logos"
+msgstr ""
+
+#: ../functions/customizer_settings.php:192
+msgid "Upload three versions of your logo for full experience on all devices."
+msgstr ""
+
+#: ../functions/customizer_settings.php:198
+msgid "Social Media Accounts"
+msgstr ""
+
+#: ../functions/customizer_settings.php:203
+msgid "Favicon & App Icons"
+msgstr ""
+
+#: ../functions/customizer_settings.php:209
+msgid "Background Image"
+msgstr ""
+
+#: ../functions/customizer_settings.php:217
+msgid "Hide Elements"
+msgstr ""
+
+#: ../functions/customizer_settings.php:225
+msgid "Single Post Settings"
+msgstr ""
+
+#: ../functions/customizer_settings.php:230
+msgid "Page Settings"
+msgstr ""
+
+#: ../functions/customizer_settings.php:237
+msgid "Copyright Settings"
+msgstr ""
+
+#: ../functions/customizer_settings.php:238
+msgid "You can use HTML links in this text-field."
+msgstr ""
+
+#: ../functions/customizer_settings.php:244
+msgid "Hide Footer Sections"
+msgstr ""
+
+#: ../functions/customizer_settings.php:251
+msgid "Display Widget Settings"
+msgstr ""
+
+#: ../functions/customizer_settings.php:258
+msgid "Colors - Image Sidebar"
+msgstr ""
+
+#: ../functions/customizer_settings.php:259
+msgid ""
+"Change the color of the text on the main sidebar (with the background image)."
+msgstr ""
+
+#: ../functions/customizer_settings.php:264
+msgid "Colors - Navigation Panel"
+msgstr ""
+
+#: ../functions/customizer_settings.php:265
+msgid "Change the colors on the navigation panel."
+msgstr ""
+
+#: ../functions/customizer_settings.php:270
+msgid "Colors - Main Body"
+msgstr ""
+
+#: ../functions/customizer_settings.php:271
+msgid "Control the main body colors like text and links."
+msgstr ""
+
+#: ../functions/customizer_settings.php:276
+msgid "Colors - Footer"
+msgstr ""
+
+#: ../functions/customizer_settings.php:277
+msgid "Change your footer area colors to seperate from main content."
+msgstr ""
+
+#: ../functions/customizer_settings.php:286
+msgid ""
+"Please Note, certain fonts have limited weights or sizes. If you do not see "
+"your fonts change try a different weight or size."
+msgstr ""
+
+#: ../functions/customizer_settings.php:541
+msgid "Display Title in Uppercase"
+msgstr ""
+
+#: ../functions/customizer_settings.php:555
+msgid "Display Tagline in Uppercase"
+msgstr ""
+
+#: ../functions/customizer_settings.php:569
+msgid "Hide Title Block From Sidebar"
+msgstr ""
+
+#: ../functions/customizer_settings.php:582
+msgid "Hide Site Title from sliding panels"
+msgstr ""
+
+#: ../functions/customizer_settings.php:595
+msgid "Hide Tagline from sliding panels"
+msgstr ""
+
+#: ../functions/customizer_settings.php:678
+msgid "Override custom colors with pre-defined color scheme below"
+msgstr ""
+
+#: ../functions/customizer_settings.php:691
+msgid "Choose Color Scheme"
+msgstr ""
+
+#: ../functions/customizer_settings.php:697
+msgid "Beau Blue"
+msgstr ""
+
+#: ../functions/customizer_settings.php:698
+msgid "Firebrick Red"
+msgstr ""
+
+#: ../functions/customizer_settings.php:699
+msgid "Mango Tango"
+msgstr ""
+
+#: ../functions/customizer_settings.php:700
+msgid "Celadon green"
+msgstr ""
+
+#: ../functions/customizer_settings.php:715
+msgid "Enable these settings"
+msgstr ""
+
+#: ../functions/customizer_settings.php:725
+msgid "Font Family"
+msgstr ""
+
+#: ../functions/customizer_settings.php:732
+msgid "Font Weight"
+msgstr ""
+
+#: ../functions/customizer_settings.php:739
+msgid "Font Size"
+msgstr ""
+
+#: ../functions/customizer_settings.php:756
+msgid "Upload Favicon"
+msgstr ""
+
+#: ../functions/customizer_settings.php:768
+msgid "Upload Apple App Icon"
+msgstr ""
+
+#: ../functions/customizer_settings.php:784
+msgid "Upload Background Image or Texture"
+msgstr ""
+
+#: ../functions/customizer_settings.php:796
+#: ../functions/customizer_settings.php:860
+msgid "Background Repeat Image"
+msgstr ""
+
+#: ../functions/customizer_settings.php:802
+#: ../functions/customizer_settings.php:866
+msgid "No Repeat"
+msgstr ""
+
+#: ../functions/customizer_settings.php:803
+#: ../functions/customizer_settings.php:867
+msgid "Tile"
+msgstr ""
+
+#: ../functions/customizer_settings.php:804
+#: ../functions/customizer_settings.php:868
+msgid "Repeat Horizontally"
+msgstr ""
+
+#: ../functions/customizer_settings.php:805
+#: ../functions/customizer_settings.php:869
+msgid "Repeat Vertically"
+msgstr ""
+
+#: ../functions/customizer_settings.php:821
+msgid "Upload Default Featured Image"
+msgstr ""
+
+#: ../functions/customizer_settings.php:829
+msgid "Alt Text for Image"
+msgstr ""
+
+#: ../functions/customizer_settings.php:882
+msgid "Upload Default Logo"
+msgstr ""
+
+#: ../functions/customizer_settings.php:894
+msgid "Upload Small Screen Logo"
+msgstr ""
+
+#: ../functions/customizer_settings.php:906
+msgid "Upload Logo (Retina Version)"
+msgstr ""
+
+#: ../functions/customizer_settings.php:920
+msgid "Position from top"
+msgstr ""
+
+#: ../functions/customizer_settings.php:921
+#: ../functions/customizer_settings.php:936
+msgid "Minimum Value is 1px"
+msgstr ""
+
+#: ../functions/customizer_settings.php:935
+msgid "Position from left"
+msgstr ""
+
+#: ../functions/customizer_settings.php:956
+msgid "Copyright Strapline"
+msgstr ""
+
+#: ../functions/customizer_settings.php:965
+msgid "Hide Footer Widget Area"
+msgstr ""
+
+#: ../header.php:163
+msgid "Search"
+msgstr ""
+
+#: ../header.php:164
+msgid "Type your search keyword, and press enter"
+msgstr ""
+
+#: ../header.php:170
+msgid "Search for then press enter"
+msgstr ""
+
+#: ../header.php:171
+msgid "Search..."
+msgstr ""
+
+#: ../inc/extras.php:63
+#, php-format
+msgid "Page %s"
+msgstr ""
+
+#: ../inc/template-tags.php:21
+msgid "Posts navigation"
+msgstr ""
+
+#: ../inc/template-tags.php:25
+msgid "<span class=\"meta-nav\">&larr;</span> Older posts"
+msgstr ""
+
+#: ../inc/template-tags.php:29
+msgid "Newer posts <span class=\"meta-nav\">&rarr;</span>"
+msgstr ""
+
+#: ../inc/template-tags.php:52
+msgid "Post navigation"
+msgstr ""
+
+#: ../inc/template-tags.php:62
+msgid "Previous Post"
+msgstr ""
+
+#: ../inc/template-tags.php:69
+msgid "Next Post"
+msgstr ""
+
+#. translators: used between list items, there is a space after the comma
+#: ../inc/template-tags.php:120 ../inc/template-tags.php:126
+msgid ", "
+msgstr ""
+
+#: ../inc/template-tags.php:122
+#, php-format
+msgid "Posted in %1$s"
+msgstr ""
+
+#: ../inc/template-tags.php:128
+#, php-format
+msgid "Tagged %1$s"
+msgstr ""
+
+#: ../inc/template-tags.php:134
+msgid "Leave a comment"
+msgstr ""
+
+#: ../inc/templates/about_author.php:3 ../inc/templates/about_author.php:5
+msgid "About the Author "
+msgstr ""
+
+#: ../inc/templates/about_author.php:19
+msgid "View all author posts"
+msgstr ""
+
+#: ../inc/templates/about_author.php:19
+msgid "View all author posts &rarr;"
+msgstr ""
+
+#: ../inc/templates/related_posts.php:24
+msgid "Related Posts"
+msgstr ""
+
+#: ../search.php:17
+#, php-format
+msgid "Search Results for: <br><span>%s</span>"
+msgstr ""

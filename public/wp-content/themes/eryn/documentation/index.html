@@ -1,0 +1,403 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>eryn - Wordpress theme documentation</title>
+
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <style>
+		.jumbotron{margin-top:100px;}
+		h3{padding-top:72px;padding-bottom:8px;margin-bottom:18px;border-bottom:2px solid #efefef;}
+		h3 a{font-size:0.7em;font-weight:bold;}
+	</style>
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body id="top">
+
+      <!-- Fixed navbar -->
+    <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#">eryn</a>
+        </div>
+        <div id="navbar" class="navbar-collapse collapse">
+          <ul class="nav navbar-nav">
+                <li>
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">General Info <span class="caret"></span></a>
+                    <ul class="dropdown-menu" role="menu">
+                    	<li><a href="#top">General Information</a></li>
+                        <li><a href="#video">Video Tutorials</a></li>
+                        <li><a href="#folders">Folder Structure</a></li>
+                        <li><a href="#faq">FAQ</a></li>
+                        <li><a href="#changelog">Change Log</a></li>
+                        <li><a href="#sources">Source &amp; Credits</a></li>
+                    </ul>
+                </li>
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Getting Started <span class="caret"></span></a>
+                    <ul class="dropdown-menu" role="menu">
+                    	<li><a href="#started">Getting Started</a></li>
+                        <li><a href="#prepwordpress">Preparing WordPress</a></li>
+                        <li><a href="#install">Installation &amp; Theme Activation</a></li>
+                        <li><a href="#plugins">Suggested Plugins</a></li>
+                        <li><a href="#autoInstaller">Setup eryn like the demo</a></li>
+                    </ul>
+                </li>
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Customizer Options <span class="caret"></span></a>
+                    <ul class="dropdown-menu" role="menu">
+                        <li><a href="#header-settings">Header Settings</a></li>
+                        <li><a href="#global-settings">Global Settings</a></li>
+                        <li><a href="#homepage-settings">Homepage Settings</a></li>
+                        <li><a href="#footer-settings">Footer Settings</a></li>
+                        <li><a href="#font-settings">Font Settings</a></li>
+                    </ul>
+                </li>
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">General <span class="caret"></span></a>
+                    <ul class="dropdown-menu" role="menu">
+                        <li><a href="#menus">Menus</a></li>
+                        <li><a href="#widgets">Widgets</a></li>
+                        <li><a href="#image-sizes">Image Sizes</a></li>
+                    </ul>
+                </li>
+              <li class="active"><a href="#premium">Premium Features</a></li>
+            </ul>
+          </div><!--/.nav-collapse -->
+        </div><!--/.container-fluid -->
+      </nav>
+
+      <!-- Main component for a primary marketing message or call to action -->
+ 	<div class="container">
+    
+          <div class="jumbotron">
+            <h1>eryn Documentation</h1>
+            <p><em>Greetings! Bellow you will find complete docummentation for eryn theme.</em></p>
+            <p>
+                <div class="btn-group" role="group" aria-label="...">
+                  <a class="btn btn-default" href="http://www.templateexpress.com/support/"><span class="glyphicon glyphicon-user"></span> Support</a>
+                  <a class="btn btn-default" href="https://www.youtube.com/playlist?list=PLYmow8KU69IhFwSH0fjvkk7lJhsWlKeOH"><span class="glyphicon glyphicon-film"></span> Video Tutorials</a>
+                  <a class="btn btn-success btn-default" href="http://www.templateexpress.com/eryn"><span class="glyphicon glyphicon-shopping-cart"></span> Purchase</a>
+                </div>
+            </p>
+          </div>
+          
+            <h3 id="information">General Information - <a href="#top">Top</a></h3>
+            <p class="alert alert-success">First of all, we want to say <strong>thank you!</strong> We're very grateful that you have chosen our theme for your website. We will do everything we can to provide you the best support possible. Feel free ask us if you need more help.</p>
+            
+            <h3 id="video">Video Tutorials - <a href="#top">Top</a></h3>
+            <p>Below is a list of our videos, they are provided to give you extra help with setting up and customizing this theme.</p>
+      <ul>
+        <li><span class="glyphicon glyphicon-film"></span><a href="https://www.youtube.com/watch?v=JCOtAf1AQyU&index=2&list=PLYmow8KU69IhFwSH0fjvkk7lJhsWlKeOH"> Install Sugested Plugins from Github</a></li>
+        <li><span class="glyphicon glyphicon-film"></span><a href="https://www.youtube.com/watch?v=xZViIniH6Js&index=1&list=PLYmow8KU69IhFwSH0fjvkk7lJhsWlKeOH"> Setup Menu and Icons </a></li>
+          <li><span class="glyphicon glyphicon-film"></span><a href="https://www.youtube.com/watch?v=ZRX_VKVHwTs&list=PLYmow8KU69IhFwSH0fjvkk7lJhsWlKeOH&index=3"> Homepage theme Settings </a></li>
+          <li><span class="glyphicon glyphicon-film"></span><a href="https://www.youtube.com/watch?v=6dvVxk1Vpa8&index=4&list=PLYmow8KU69IhFwSH0fjvkk7lJhsWlKeOH"> Custom Post Types </a></li>
+      </ul>
+            
+            <h3 id="folders">Folder Structure - <a href="#top">Top</a></h3>
+            <p>eryn theme folder structure:</p>
+            <ul>
+                <li><strong>changelog.txt</strong> - this file contains all of the changes from the initial release.</li>
+                <li><strong>eryn.zip</strong> - contains all the files required for the theme to run &amp; install (also the main CSS file called '<i>style.css</i>'), this theme is build on top of <a href="http://underscores.me/">Underscores</a>.</li>
+                <li><strong>documentation</strong> - this folder contains the help files (which you are currently reading),</li>
+                <li><strong>import</strong> - this folder contains the xml file with preview theme content.</li>
+            </ul>
+            
+             <h3 id="faq">FAQ - <a href="#top">Top</a></h3>
+             <p>Below are some of our more common support questions.</p>
+             
+             <dl>
+                <dt>Is there a way I can add my own CSS touches?</dt>
+                <dd>Definitely! We have included a "Custom CSS" textarea panel in the Customizer within the "Global Settings" panel.</dd>
+             </dl>
+             
+             <h3 id="changelog">Change Log - <a href="#top">Top</a></h3>
+             <pre class="prettyprint">
+    
+        eryn - Simple professional Responsive Wordpress Theme
+        --------------------------------------------------------------
+        
+        05/12/2014 - Version 1.0
+        - Release
+                
+             </pre>
+         
+             <h3 id="sources">Sources and Credits - <a href="#top">Top</a></h3>
+             <p>This theme takes advantage of these generous tools:</p>
+             <ul>
+                <li><a href="http://owlgraphic.com/owlcarousel/">OWL Carousel</a></li>
+                <li><a href="http://fontawesome.io/">Font Awesome</a></li>
+                <li><a href="http://underscores.me/">Underscores</a></li>
+                <li><a href="https://github.com/woothemes/FlexSlider">Flexslider</a></li>
+                <li><a href="https://github.com/davatron5000/FitVids.js">FitVids</a></li>
+                <li><a href="https://github.com/protonet/jquery.inview">Inview</a></li>
+                <li><a href="http://tooltipsy.com/">Tooltipsy</a></li>
+                <li><a href="http://www.google.com/fonts">Google Fonts</a></li>
+                <li>Demo images from <a href="http://pixabay.com/en/">Pixabay</a></li>
+                <li>Demo logo by <a href="http://www.templateexpress.com/">TemplateExpress</a>, feel free to use anyway you want.</li>
+             </ul>
+             
+             <h3 id="started">Getting Started - <a href="#top">Top</a></h3>
+             <p>In this section we will go over the process of setting up WordPress environment, next I will show you how to install and activate your brand new theme. Finally you will learn how to setup all of the key features of eryn theme.</p>
+             
+             <h3 id="prepwordpress">Preparing Wordpress - <a href="#top">Top</a></h3>
+             <p>If you already have WordPress installed on your server just skip to the next section. If you haven't yet installed WordPress on your server, <a href="http://codex.wordpress.org/Installing_WordPress" target="_blank">here</a> you will find a complete guide on this topic. Just follow the steps and you will be ready in no time with a WordPress website.</p>
+             
+             <h3 id="install">Installation and Theme Activation - <a href="#top">Top</a></h3>
+             <p>Each WordPress Theme can be installed in two ways: via ftp client or through the admin panel:</p>
+             <dl>
+                <dt>Installing WordPress Theme via FTP client:</dt>
+                <dd>
+                    <ol>
+                        <li>unzip the '<i>eryn.zip</i>' package (the zip package is inside the folder you have downloaded from ThemeForest),</li>
+                        <li>connect to your server,</li>
+                        <li>navigate to the folder where your WordPress is installed,</li>
+                        <li>go to wp-content/themes/,</li>
+                        <li>upload the '<i>eryn</i>' folder into the '<i>themes</i>' directory (the path will look like this: wp-content/themes/eryn),</li>
+                        <li>open the wp-admin panel (navigate through web browser to the folder where you have installed the WordPress e.g www.your_domain.com/wp-admin/),</li>
+                        <li>login to your wp-admin panel then from the sidebar on the left choose '<i>Appearance</i>',</li>
+                        <li>under '<i>Appearance</i>' choose '<i>Themes</i>',</li>
+                        <li>find the '<i>eryn</i>' theme and click the '<i>Activate</i>' button next to it.</li>
+                    </ol>
+                </dd>
+                <dt>Installing Theme via WordPress Admin Panel:</dt>
+                <dd>
+                    <ol>
+                        <li>open the wp-admin panel (navigate through web browser to the folder where you have installed the WordPress e.g www.your_domain.com/wp-admin/),</li>
+                        <li>login to your wp-admin panel then from the sidebar on the left choose '<i>Appearance</i>',</li>
+                        <li>under '<i>Appearance</i>' choose '<i>Themes</i>',</li>
+                        <li>at the top click '<i>Install Themes</i>' tab,</li>
+                        <li>under the header click the '<i>Upload</i>' link,</li>
+                        <li>you will be redirected to upload form, click the '<i>choose file</i>' button and navigate to the unzipped package that you have download from us, inside that package is a file called '<i>eryn.zip</i>' choose it and click '<i>open</i>',</li>
+                        <li>once the theme is done uploading it will automatically install,</li>
+                        <li>after the installation you will be able to activate the theme to do this click the "blue" activation link.</li>
+                    </ol>
+                </dd>
+             </dl>
+             
+             <h3 id="plugins">Suggested Plugins - <a href="#top">Top</a></h3>
+             <h4>VafPress Post Formats UI</h4>
+             <p>This theme was built with <a href="https://github.com/vafour/vafpress-post-formats-ui">vafPress Post Formats UI</a> plugin in mind. Although you don't need to use this plugin and the theme will work just fine. We suggest this plugin for anyone who may be thinking about publishing posts with multiple Images, video, sound or quotes.</p>
+             <dl>
+                <dt>Install VafPress Post Formats UI plugin</dt>
+                <dd>
+                    <ol>
+                        <li>From any page within the admin center you should see a message recommending the plugin.</li>
+                        <li>Click the '<i>Begin installing plugin</i>' link from in the message</li>
+                        <li>Hover over Vafpress Post Formats UI plugin and click the blue install link that will apear.</li>
+                        <li>Your plugin will now install.</li>
+                     </ol>
+                </dd>
+             </dl>
+             <img src="images/install-plugins.png" alt="installing vafPress Plugin Screenshot" />
+             
+             <h3 id="xml">Setup eryn like the demo - <a href="#top">Top</a></h3>
+             <p>If you want to setup your theme to look like the eryn demo from TemplateExpress please follow this guide. The process is very simple and it should take up to 5 minutes.</p>
+             <ol>
+                <li>In your sites Admin section, navigate to '<i>Tools/Import/</i>' and select Wordpress from the list of links.</li>
+                <li>You may have to install the Wordpress Importer if you've not used this function before. If so click the Blue '<i>Install Now</i>' button and follow the instructions</li>
+                <li>TODO:</li>
+             </ol>
+             
+             
+             <h3 id="header-settings">Header Settings - <a href="#top">Top</a></h3>
+              
+             <h4 id="header-settings-1">Site Title &amp; Tagline</h4>
+             <ul>
+	             <li>Change Site Title &amp; Tagline</li>
+	             <li>Change Title and Tagline to display in Uppercase or Normal. <em>Be aware you may see no change with certain fonts.</em></li>
+	             <li>Choose whether to hide or display the Title and Tagline.</li>
+             </ul>
+             
+             <h4 id="header-settings-2">Logo &amp; Header Settings</h4>
+             <ul>
+	             <li>Upload your sites logo. Remember to include a Retina Version of your logo for High Definition displays. <em>Note: Use the same file name for both versions but add @2x to the end of the high definition version</em>.</li>
+	             <li>Set the Padding surrounding the logo</li>
+	             <li>Position the logo, left, right or center</li>
+                 <li>Hide or display header bottom border.</li>
+             </ul>
+    
+             <h4 id="header-settings-3">Background Image</h4>
+             <p>You can choose to add a background image to the header section by uploading one from your computer. We recommend an image dimension size of <strong>1700px</strong> × <strong>470px</strong>.</p>
+             <p>You also have control to repeat the image in all CSS directions.</p> 
+             
+             <h4 id="header-settings-4">Social Media Accounts</h4>
+             <p>Add the Full url to your Social Network account. Please include the url from: http....</p>
+             <p><em>Front End</em>: Click the share button next to the magnifying glass to see the chosen networks.</p>
+             
+             <h4 id="header-settings-5">Top Bar Settings</h4>
+             <p>If you wish to hide the top bar elements like the Navigation, Search or Social Networks, you can do it in this section.</p> 
+    
+             <h4 id="header-settings-6">Header Area Colors</h4>
+             <p>Choose the color for your element below from interactive palette of colors or paste your HEX value.</p>
+             <ul>
+	             <li>Background</li>
+	             <li>Title Text color</li>
+	             <li>Tagline Text Color</li>
+	             <li>Hover color</li> 
+             </ul>
+             
+             <h3 id="global-settings">Global Settings - <a href="#top">Top</a></h3>
+             
+             
+             <h4 id="global-settings-1">Site Layout</h4>
+             <ul>
+	             <li>Control the pages you display the sidebar on from here.</li>
+	             <li>Control the sidebar location, i.e. left or right</li>
+	             <li>Upload a background Image</li>
+	             <li>Select the repeat type of that background Image</li>
+             </ul>
+             
+             <h4 id="global-settings-2">Site Icons</h4>
+             <p>This is the section where you can upload your Favicon (the small icon that appears in the browser tab).</p>
+             <p>You can also set the Apple App Icon by uploading a png of <em><strong>152px</strong> x <strong>152px</strong></em></p>
+             
+             <h4 id="global-settings-3">Main body Colors</h4>
+			 <p>You can change the colors for most things from this section, including the body background, article background and highlight colors.</p>
+			 <p>Choose the main body color for your website from interactive palette of colors or paste your HEX value.</p>
+			 
+			 <h4 id="global-settings-4">Custom CSS</h4>
+			 <p>For a safe way to add your own styles or overide any of our ones use this textbox. <em>Add pure CSS only!</em></p>
+             <img src="images/custom-css.png" alt="custom css screenshot from customizer" />
+             
+             
+             <h3 id="homepage-settings">Homepage Settings - <a href="#top">Top</a></h3>
+             <p>There are loads of options within this section for you to create a personal homepage. Control layout, hide and show elements add a slider and more...</p>
+             <h4 id="homepage-settings-1">Homepage Layout</h4>
+             <ul>
+	             <li>Decide whether to show a sidebar on the homepage.</li>
+	             <li>Single column or multi column layout???</li>
+	             <li>Additional Page title and tagline. This can be used as a welcome message.</li>
+             </ul>
+             
+             <h4 id="homepage-settings-2">Hide Elements</h4>
+             <p>Simply mark the checkboxes of the elements you don't want to display on the homepage.</p>
+             
+             <h4 id="homepage-settings-3">Featured Carousel</h4>
+             <p>eryn comes with a fully functioning carousel. Simply click the checkbox and select the category to display the carousel and set the amount of slides you want.</p>
+             <img src="images/featured-carousel.png" alt="featured carousel customizer screenshot" />
+             
+             <h3 id="footer-settings">Footer Settings - <a href="#top">Top</a></h3>
+             <p>Change the footer colors, set the copyright information or hide the lot.</p>
+             <h4>Footer Area Colors</h4>
+             <p>Control the colors for the Widget Area and the Copyright Bar.</p>
+             
+             <h4>Copyright Settings</h4>
+             <p>Customize your own copyright information or just leave it empty for the default.</p>
+             
+             <h4>Hide Footer Elements</h4>
+             <p>Hide or display the Widget Area and Copyright Bar</p>
+             
+             <h3 id="font-settings">Font Settings - <a href="#top">Top</a></h3>
+             <p>eryn theme includes access to Google Font Library to customize most sections of the site.</p>
+             <p class="alert alert-info"><strong>Note:</strong> the free version contains far fewer google fonts. For the full catalogue of fonts purchase the premium version.</p>
+             <p><strong>Font Sections:</strong>
+             <ul>
+	             <li>Site Navigation</li>
+	             <li>Site Title</li>
+	             <li>Site Tagline</li>
+	             <li>Body Text</li>
+	             <li>Headers</li>
+             </ul>
+             <p><em>To enable your font choices make sure you've checked the enable checkbox.</em></p>
+             <img src="images/font-sections.png" alt="font section screenshot" />
+	             
+            <h3 id="menus">Menus - <a href="#top">Top</a></h3>
+            <p>eryn supports custom menu and you can set it by using the following steps:</p>
+            <ol>
+                <li>Go to Appearance->Menus.</li>
+                <li>Give your menu a name and build as you require.</li>
+                <li>You can add pages, categories or custom URL’s.</li>
+                <li>Now simply select the theme location(Primary Menu in our case) for your newly created menus using a widget on the left. Afterwards, click Save.</li>
+            </ol>
+      
+            <h4>Adding icons to menu items</h4>
+            <p>If your looking to achieve a similar effect as the demo with icons next to the menu name them follow the instructions below.</p>
+            <ol>
+                <li>Visit <a href="http://fortawesome.github.io/Font-Awesome/icons/">Font-Awesome</a> and navigate to the icon your interested in and open its detail page.</li>
+                <li>Copy the snippet of code that looks like the screenshot below.</li>
+                <img src="images/font-awesome.png" alt="font-awesome screenshot" />
+                <li>Go to your Menu admin and expand the menu element your interest in and paste the snippet before the link title.</li>
+                <img src="images/menu-icon.png" alt="Menu Icon Paste screenshot" />
+            </ol>
+                
+            <h3 id="widgets">Widgets - <a href="#top">Top</a></h3>
+            <p>After installing the theme, your sidebars will be empty or have default widgets. These can be populated using the following steps:</p>
+
+            <ol>
+                <li>Go to Appearance > Widgets.</li>
+                <li>You can drag and drop widgets in each of the positions.</li>
+                <li>See Widget Help for more information.</li>
+            </ol>
+
+            <p class="alert alert-info">Note: This theme has some extra widget areas in the footer and the left-sidebar templates. These can be populated using the same steps as above.</p>
+
+          <h3 id="image-sizes">Images - <a href="#top">Top</a></h3>
+          <p>The following are just size recommendations and there is some flexibility with these sizes.</p>
+          <p><strong>Logo</strong> = 280px width 86px height. The Reznor demo site logo 235px width and 86px height.</p>
+          <p><strong>Company Logos</strong> (Custom Homepage) = 225px width 140px height. The Reznor demo site logos are 225px width and 140px height.</p>
+      
+      
+      <h3 id="premium">Premium Features - <a href="#top">Top</a></h3>
+        <p>The features below are inlcuded in the premium version and are not available in our free release.</p>
+        <ul>
+            <li><h4>Support for more Post Format Types: Video &amp; Audio</h4>
+            	<img src="images/post-format.png" alt="Post format Screenshot" height="240" />	
+            </li>
+            <li><h4>Fully featured homepage carousel</h4>
+        		<img src="images/featured-image.png" alt="Featured Carousel" height="240" />
+            </li>
+            <li><h4>Additional Sidebar options</h4>
+            	<img src="images/sidebar-options.png" alt="sidebar options screenshot"  />
+            <li><h4>More homepage columns available</h4>
+           	 <img src="images/homepage-columns.png" alt="Homepage Columns screenshot"  />
+            </li>
+            <li><h4>Much more Social Network channels available</h4>
+            	<img src="images/social-networks.png" alt="Social Networks screenshot"  />
+            </li>
+            <li><h4>Change Copyright Message and option to hide or display it.</h4>
+            <img src="images/copyright.png" alt="Copyright Options screenshot" height="320px" />
+            </li>
+            <li><h4>Full Google Font library</h4></li>
+            <li><h4>Hide Top Bar Elements</h4></li>
+            <li><h4>Change Title and Tagline to Uppercase</h4></li>
+            <li><h4>Additional Homepage message option</h4></li>
+            <li><h4><em>And much more...</em></h4></li>
+        </ul>
+        <p class="alert alert-info">Note: we will be improving and adding to the premium version more often than the free version.</p>
+
+        
+        
+             <!-- Closing remarks -->
+             <br>
+             <br>
+      <hr>
+             <p class="alert alert-success">Once again, thank you so much for purchasing this theme. As I said at the beginning, I'd be glad to help you if you have any <a href="http://www.templateexpress.com/support/">questions</a> relating this theme. No guarantees, but I'll do my best to assist. If you have any suggestions on how to improve our themes or documentation please share them!</p>
+            
+             <p><em><strong>Template Express</strong></em></p>
+             <br>
+             <br>
+       
+	</div> <!-- /container -->
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="https://google-code-prettify.googlecode.com/svn/loader/run_prettify.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+  </body>
+</html>

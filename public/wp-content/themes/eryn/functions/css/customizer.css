@@ -1,0 +1,77 @@
+#customize-control-featured_slider:after,
+#customize-control-header_padding:before,
+#customize-control-upload_background_image:after,
+#customize-control-eryn_global_favicon:after,
+#customize-control-eryn_global_apple_icon:after,
+#customize-control-eryn_grid_sub_title:after,
+#customize-control-eryn_logo_small_screen:after,
+#customize-control-upload_logo:after,
+#customize-control-twitter:before,
+#customize-control-hide_site_title_block_control:after,
+#customize-control-header_top_position:after,
+#customize-control-header_side_position:after,
+#customize-control-upload_site_background_image:before,
+#customize-control-homepage_featured_image_alt:after,
+{
+    clear: both;
+	font-size:12px;
+	font-style:italic;
+	display:block;
+	color:#888;
+}
+#customize-control-homepage_featured_image_alt:after{
+    content:"Help assistive technologies describe the featured image.";
+}
+#customize-control-upload_site_background_image:before{
+    content:"Note: We suggest a subtle pattern or texture so it doesn't distract from the content.";
+}
+#customize-control-header_top_position:after,
+#customize-control-header_side_position:after{
+    content: "Note: This controls the position of the logo in the main sidebar only. Min Value 1px";
+}
+#customize-control-hide_site_title_block_control:after{
+    content: "Note: Checking this will remove the site title and tagline from the main sidebar with the background image.";
+}
+#customize-control-upload_logo:after{
+	content: "Note: default logo that will show larger screens. Will be overlayed on a photo background."}
+#customize-control-eryn_logo_small_screen:after{
+	content: "Note: This logo will be visible on small screens and will be on default colour of white";
+}
+#customize-control-twitter:before {
+	content:"Note: Put the full url e.g. https://www.twitter.com/templateexpress";	
+}
+#customize-control-featured_slider:after {
+	content:"Note: Check this box if you the featured slider to appear on the homepage.";
+}
+#customize-control-header_padding:before{
+	content:"Note: Use the exact same file name as your regular logo file and then just put @2x at the end of the name. For example logo@2x.png";
+}
+#customize-control-upload_background_image:after{
+	content:"Note: Make sure your background image is at least 1240px wide.";
+}
+#customize-control-eryn_global_favicon:after{
+	content:"Note: Make sure your Favicon Dimensions are 32px x 32px and is saved as .png format";
+}
+#customize-control-eryn_global_apple_icon:after{
+	content:"Note: Make sure your Apple App Icon Dimensions are 152px x 152px and is saved as .png format";
+}
+#customize-control-eryn_grid_sub_title:after{
+	content:'Note: Use these fields if you have a message to add to the homepage.';
+}
+
+
+/* Pro Message in Customizer */
+.eryn-customize-plus,
+.eryn-customize-plus:hover,
+.eryn-customize-plus:focus{
+	background: rgb(204, 75, 75);
+	color: #fff;
+	text-align: center;
+	padding: 0.2em 0.7em;
+	display: inline-block;
+	margin: 1em 0 2em;
+}
+.eryn-customize-plus:after{
+	content: "➚";
+	padding-left: 0.5em;
+}
